@@ -1,0 +1,14 @@
+.Container{
+    max-height: 300px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.Container::-webkit-scrollbar{
+    display: none;
+}
+.Comment{
+    font-family: Crushed-regular;
+  
+}

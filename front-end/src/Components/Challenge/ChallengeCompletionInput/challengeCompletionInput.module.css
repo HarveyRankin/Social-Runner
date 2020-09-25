@@ -1,0 +1,27 @@
+.CompletionCon{
+    margin-top: 2%;
+    font-family: "Crushed-regular";
+}
+.File{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.PreviewCol{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: 100%;
+}
+
+.Image{
+border-radius: 10px;
+box-shadow: 0px 4px 13px 4px rgba(0,0,0,0.41)
+}
+.Error{
+    padding:0.5%;
+    border: 1px solid rgb(47, 14, 14);
+    background-color: rgba(255, 0, 0, 0.52);
+    color: black;
+    margin:1px;
+}

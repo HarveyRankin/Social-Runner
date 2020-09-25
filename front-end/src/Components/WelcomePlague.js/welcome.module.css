@@ -1,0 +1,75 @@
+.Plague {
+   width: 100%;
+   margin: auto;
+
+   position: relative;
+   background-color: #303040;
+   position: relative;
+   height: 300px;
+}
+
+.Plague h2 {
+   text-align: center;
+}
+
+.Col1 {
+
+
+   position: relative;
+
+}
+
+.NameBox {
+   
+   position: relative;
+   padding-top: 5%;
+
+}
+
+.NameBox p {
+   font-size: 100px;
+   font-weight: bold;
+   font-family: Crushed-regular;
+   text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+   color: rgb(114, 134, 248);
+}
+
+.Reputation {
+
+   
+   height: 50px;
+   width: 50px;
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   border-radius: 50%;
+   /* may require vendor prefixes */
+
+   border: 5px solid rgb(114, 134, 248);
+   padding:2%;
+   margin-bottom: 100px;
+   position: absolute;
+   top: 65%;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Reputation p {
+   font-size: 40px;
+   font-family: Crushed-regular;
+   color: rgb(114, 134, 248);
+}
+
+.RepCon {
+   margin-top: 6%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 2%;
+}

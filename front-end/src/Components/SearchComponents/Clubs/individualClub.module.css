@@ -1,0 +1,23 @@
+.Container:hover{
+    cursor: pointer;
+   
+}
+.Container{
+    transition: height 1s ease;
+    z-index: 9999
+}
+.IndividualSearch{
+    max-height: 200px;
+    
+}
+.IndividualSearch:hover{
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out 0s;
+    color: rgb(2, 17, 100);
+    font-weight: bold;
+    
+}
+.Container P {
+    font-family: Crushed-regular;
+    font-size: 30px;
+}

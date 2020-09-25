@@ -1,0 +1,93 @@
+.OverviewCon{
+    padding-bottom: 3%;   
+    background-color: #f8f8ff;
+   
+}
+.TopCon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5%;
+}
+.Title{
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: 'Crushed-regular';
+    border-right: 1px solid  grey;
+    padding: 5%;
+    font-weight: bold;
+    max-width: 100%;
+    overflow: hidden;
+   
+}
+.Dates{
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: 'Crushed-regular';
+    padding: 5%;
+}
+.RequirmentsCon{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 5%;
+}
+.RequirmentsCon p{
+    font-size: 30px;
+    font-family: 'Crushed-regular';
+}
+.Description{
+    width: 100%;
+    margin-top: 5%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    max-height: 200px;
+    overflow: auto;
+}
+.Description p {
+    padding: 5%;
+    text-align:left;
+    font: 30px;
+    font-family: 'Crushed-regular';
+
+
+}
+.GpsRequirments{
+    padding:5%;
+}
+.SpecificReq{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.SpecificReq p{
+    font-weight: 10px;
+    font-family: 'Crushed-regular';
+    font-size: 20px;
+}
+.Creator{
+    display:flex;
+    padding-right: 5%;
+    margin-top: 2%;
+}
+.Creator p{
+    margin-left: auto;
+    
+   
+}
+.Creator p:hover{
+    color: darkblue
+}
+.Containers{
+    display: flex;
+    justify-content: center;
+}
+.Tick{
+    width: 80%;
+    height: auto;
+    color:green
+}
+.Cross{
+    width: 80px;
+    height: auto;
+    color: red;
+}

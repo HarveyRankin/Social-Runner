@@ -1,0 +1,51 @@
+
+.Table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    max-height: 500px;
+    margin-top: 5%;
+
+}
+.Table th{
+    font-family: Crushed-regular;
+    font-size: 20px;
+    color:white;
+   
+}
+.TableData{
+color:rgb(114, 134, 248);
+font-family: Crushed-regular;
+font-size: 30px;
+text-align: center;
+
+height:50px;
+}
+
+.Container{
+    width: 100%;
+    background-color: #07272757;
+    padding-top:1%;
+    padding-bottom:1%;
+    
+    
+}
+.Image{
+    height: 90%;
+    margin-left: 10%;
+    margin-top:5%;
+    width: 70%;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 7px 2px 11px -5px rgba(0,0,0,0.65);
+    position: relative;
+    z-index: 500;
+}
+
+.Image:hover{
+    transform: scale(3);
+    transition: transform 0.4s ease-in-out 0s;
+ 
+    cursor: pointer;
+
+}

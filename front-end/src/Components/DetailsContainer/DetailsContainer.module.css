@@ -1,0 +1,81 @@
+.Con{
+    width: 100%;
+    font-family: Crushed-regular;
+    margin-right: 1%;
+}
+
+.Header{
+font-size: 100px;
+font-weight: bold;
+background-color: #242426 ;
+padding-bottom: 1%;
+padding-top: 1%;
+color: white;
+font-size: 20px;
+font-weight: bold;
+margin-top: 1%;
+box-shadow: 0px 16px 15px -6px #000000;
+
+
+}
+.Header p {
+    font-size: 40px;
+}
+.Background{
+    position:relative;
+    z-index:1;
+    height:100%;
+    width:100%;
+    background-color:#6c6c76; 
+
+}
+.Body{
+    max-height: 170px;
+    height: 170px;
+    overflow-y: auto;
+}
+.Body::-webkit-scrollbar{
+    display: hidden;
+    
+}
+.Odd{
+    border-bottom: 1px solid #242426; 
+    background-color: rgb(234, 250, 250);
+    text-align: center;
+   
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.Even{
+    border-bottom: 1px solid #242426;
+    background-color:rgba(200, 244, 253, 0.787);
+    text-align: center;
+    
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+
+
+.Odd:hover{
+    background-color:rgb(88, 85, 85);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.Even:hover{
+    background-color:rgb(88, 85, 85);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}

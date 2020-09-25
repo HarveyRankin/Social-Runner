@@ -1,0 +1,63 @@
+.Table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    max-height: 500px;
+
+}
+.Table th{
+    font-size: 25px;
+    color:white;
+    font-family: Crushed-regular;
+   
+}
+.Table td{
+    font-size: 20px;
+    color: #242426;
+    font-weight: bold;
+    font-family: 'Crushed-regular';
+    overflow: hidden;
+
+}
+.Header{
+    background-color: #242426 ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+
+  .Odd{
+    background-color: rgb(234, 250, 250);
+    text-align: center;
+    padding:100px;
+    height:50px
+  }
+  .Odd:hover{
+      cursor: pointer;
+      
+  }
+  .Even:hover{
+      cursor: pointer;
+      
+
+  }
+  .Even{
+    background-color: rgba(200, 244, 253, 0.787);
+    text-align: center;
+    padding:100px;
+    height: 50px;
+  }
+  .Table tr{
+    border-bottom: 2px solid rgb(51, 9, 9);
+  }
+  .Table tr:hover{
+    background-color: #ddd;
+  }
+  .TableWrapper{
+      max-height: 520px;
+      overflow-y: scroll;
+      border:1px solid black;
+      margin-top: 2%;
+  }
+  .TableWrapper::-webkit-scrollbar{
+    display: hidden;
+  }

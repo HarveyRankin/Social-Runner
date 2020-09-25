@@ -1,0 +1,77 @@
+.TopCon{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 7%;
+}
+.Body{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.VisitPage{
+    font-weight: bold;
+}
+.VisitPage:hover{
+    color: blue;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.InfoPanel{
+    
+    background-color:rgba(116, 1, 1, 0.842);
+    width: auto;
+    height: auto;
+    border-radius: 2px;
+    padding:1%;
+    
+    transition: all .25s linear;
+    
+    
+    
+}
+.LeaderBoardWrapper{
+    height: auto;
+    max-height: 270px;
+    overflow-y: scroll;
+}
+.InfoPanel:hover{
+    box-shadow: -1px 10px 29px 0px rgba(0,0,0,0.8);
+}
+.Stats{
+    
+    border-radius: 50px;
+    background:  #242426;
+    width: 100%;
+    height: auto;
+    border:2px solid #47474d;
+    margin: 10px;
+    padding:3% 
+}
+.CompleteContainer{
+    transform: rotate(45deg);
+    top: 150px;
+    right:150px;
+    z-index: 1
+}
+.Complete{
+    color: rgba(11, 102, 11, 0.534);
+   
+}
+.TopOfLeaderboard{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3%;
+    
+}
+.Expired{
+    padding: 5%;
+}
+.ExpiredText{
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.6);
+    font-size: 70px;
+    font-family: Crushed-regular;
+}
+.ExpiredSmallText{
+    font-size: 40px;
+    font-family: Crushed-regular;
+}

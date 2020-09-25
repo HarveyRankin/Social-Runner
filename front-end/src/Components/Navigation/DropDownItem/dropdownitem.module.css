@@ -1,0 +1,33 @@
+.Icon{
+    --button-size: calc(60px * 0.5);
+    width: var(--button-size);
+    height: var(--button-size);
+    background-color: #484a4d;
+    border-radius: 50%;
+    padding: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 300ms;
+    margin-right: 2px;
+    }
+
+.MenuItem{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    transition: background 500ms;
+    padding: 1rem;
+    border-bottom: solid 0.2px #525357;
+    font-family: Crushed-regular;
+    font-size: 30px;
+    color: rgb(114, 134, 248);
+}
+.MenuItem:hover{
+    background-color: #525357;
+}
+.IconRight{
+    margin-left: auto;
+}

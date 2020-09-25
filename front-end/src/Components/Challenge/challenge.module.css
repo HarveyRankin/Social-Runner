@@ -1,0 +1,36 @@
+.Challenge{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-family: Crushed-regular;
+    
+}
+.Challenge button{
+    padding-bottom: 5px;
+}
+.Input{
+    width: 100%;
+}
+.Form{
+    width: 100%;
+}
+.VerficationCon{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+   
+}
+.GPS::before{
+    content: 'GPS';
+    margin-left: 25%;
+}
+.Photo::before{
+    content: 'Photo';
+    margin-right: 20%;
+}
+.Description::before{
+    content: 'Description';
+    margin-right: 25%;
+}

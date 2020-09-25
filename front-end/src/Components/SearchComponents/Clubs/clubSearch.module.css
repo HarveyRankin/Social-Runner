@@ -1,0 +1,39 @@
+.Container{
+    
+ margin: 1%; 
+
+ width: 100%;
+}
+
+.Search{
+    border: 1px solid rgb(0, 0, 92);
+    
+    
+}
+.Search::-webkit-scrollbar{
+    display: none;
+}
+.SearchBox{
+    max-height: 200px;
+    overflow-y: scroll;
+    width: 34%;
+    position: absolute;
+    z-index: 9999;
+    box-shadow:1px 6px 18px 0px rgba(0,0,0,0.45);
+    box-shadow:1px 6px 18px 0px rgba(0,0,0,0.45);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.SearchBox::-webkit-scrollbar{
+    display: none;
+}
+.CreateClub{
+    box-shadow:1px 6px 18px 0px rgba(0,0,0,0.69);
+}
+.Plus:hover{
+    color:red;
+    transform:scale(1.1);
+    
+
+}

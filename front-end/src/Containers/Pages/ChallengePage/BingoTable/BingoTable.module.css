@@ -1,0 +1,51 @@
+.Table{
+    width:100%;
+    height:100%;
+}
+.Normal{
+    height: 100px;
+    border: 2px solid rgb(119, 5, 5);
+    max-width: 100px;
+    width: 100px;
+    background-color:  #242426;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 5px;
+}
+.Current{
+    height: 100px;
+    width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+    border: 2px solid rgb(5, 90, 5);
+    background-color:  #242426;
+    overflow-y: hidden;
+    overflow-x:hidden;
+    ;
+}
+.Current p{
+    color: white;
+    font-size: 30px;
+    font-family: Crushed-regular;
+}
+.Normal p{
+    color: white;
+    font-size: 20px;
+    font-family: Crushed-regular;
+   
+    font-size: 30px;
+}
+
+.Normal:hover{
+    cursor: pointer;
+    border: 2px solid red;
+    background-color: rgba(255, 245, 238, 0.431);
+    color: black;
+}
+.Current:hover{
+    cursor: pointer;    
+    border: 2px solid green;
+    background-color: rgba(255, 245, 238, 0.431);
+    color: black;
+}
+

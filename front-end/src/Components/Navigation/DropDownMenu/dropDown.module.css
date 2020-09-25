@@ -1,0 +1,49 @@
+.Dropdown{
+    position: absolute;
+    top: 58px;
+    width: 300px;
+    height: 300px;
+    transform: translate(-40%);
+    background-color:#242426;
+    border:1px solid #47474d;
+    border-radius:15px;
+    padding: 1px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index: 9999;
+    
+    
+}
+.Dropdown::-webkit-scrollbar{
+    display: none;
+}
+.Icon{
+    --button-size: calc(60px * 0.5);
+    width: var(--button-size);
+    height: var(--button-size);
+    background-color: #484a4d;
+    border-radius: 50%;
+    padding: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 300ms;
+    margin-right: 2px;
+    }
+
+.MenuItem{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    transition: background 500ms;
+    padding: 1rem;
+}
+.MenuItem:hover{
+    background-color: #525357;
+}
+.IconRight{
+    margin-left: auto;
+}

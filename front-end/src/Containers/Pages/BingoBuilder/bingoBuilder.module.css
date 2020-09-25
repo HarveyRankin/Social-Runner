@@ -1,0 +1,86 @@
+.Body {
+    max-height: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 5%;
+}
+
+.Col1 {
+    padding: 5%;
+    background-color: white;
+    box-shadow: -2px 16px 16px 10px rgba(0,0,0,0.13);
+    margin-bottom: 3%;
+    
+}
+
+.Col2 {
+    margin-top: 1%;
+    height: 39%;
+    background-color: skyblue;
+    background-color: #fff;
+    color: rgba(0, 0, 0, .87);
+    overflow: hidden;
+    position: relative;
+    z-index: 10px;
+    box-shadow: 4px -12px 16px 3px rgba(0,0,0,0.13);
+}
+.Error{
+    transition-duration: 0.5s;
+    background-color: #ffebee;
+    box-shadow: 7px 5px 18px 0px rgba(0,0,0,0.83);
+    transition:         height 5000ms ease;
+    -moz-transition:    height 5000ms ease;
+    -ms-transition:     height 5000ms ease;
+    -o-transition:      height 5000ms ease;
+    -webkit-transition: height 5000ms ease;
+    transition:         width 5000ms ease;
+    -moz-transition:    width 5000ms ease;
+    -ms-transition:     width 5000ms ease;
+    -o-transition:      width 5000ms ease;
+    -webkit-transition: width 5000ms ease;
+    max-height: 100vh;
+    overflow-y: scroll;
+    
+}
+.Error::-webkit-scrollbar{
+display: none;
+}
+.LowerInput{
+    width: 100%;
+    margin-top:5%;
+    margin-bottom:5%;
+
+}
+.Cancel:hover{
+    color: red;
+    transform: scale(1.6);
+    cursor: pointer;
+    
+}
+.Cancel{
+    margin-top: 2%;
+    height: 50px;
+    width: 50px;
+}
+.ButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    height: auto;
+    width: 97%;
+    background-color:#2c2c2e;
+    margin-top: 5%;
+    padding: 2%;
+    box-shadow: -1px 8px 17px 6px rgba(0,0,0,0.57);
+    margin-bottom: 1%;
+}
+.Intro{ 
+    height: 300%;
+    width: 100%;
+    background-color:#303040;
+    }
+.Cross:hover{
+    transform: scale(1.1);
+    color: rgb(51, 9, 9);
+    cursor: pointer;
+}

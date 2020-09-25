@@ -1,0 +1,106 @@
+.Page{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.Banner{
+    padding-top: 50px;
+    height: 600px;
+    background-color:#303040;
+    padding-left: 25%;
+    padding-right:25%;
+    position: relative;
+}
+
+.TopCon{
+    margin-top:10%;
+    display: flex;
+    justify-content: center;
+    
+}
+.UserData {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.AllSubmissions{
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Input{
+    display: flex;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 5%;
+}
+
+.Input p:hover{
+    color: darkblue
+}
+.Return{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.Return p{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Return p:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
+.CompleteChallenges{
+    overflow-y: scroll;
+    max-height: 1000px;
+}
+.CompleteChallenges::-webkit-scrollbar{
+    display: none;
+}
+.Controlles{
+    background-color:white;
+    height: 45%;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px -1px rgba(0,0,5,5);
+}
+.TableWrapper{
+    width: 60%;
+    border-radius: 5px;
+background-color: #242426;
+
+}
+.Cross:hover{
+    transform: scale(1.2);
+    color: rgb(255, 57, 57);
+
+}
+.LeaderBoard{
+    
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.LeaderBoard::-webkit-scrollbar{
+    display: none;
+}
+.LeaderBoardTop{
+    height: 40px;
+    width: 100%;
+  
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 20px;
+}
+.LeaderBoard::-webkit-scrollbar{
+    display: hidden;
+}
+.Expired{
+    color: rgba(255, 0, 0, 0.132);
+    font-family: Crushed-regular;
+    font-size: 200px;
+}
+.ExpiredCon{
+    position: absolute;
+    transform: rotate(45deg);
+    top: 30%;
+    right:22%;
+}

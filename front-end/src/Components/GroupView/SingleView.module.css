@@ -1,0 +1,22 @@
+
+ .Container{
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    padding: 10%;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+.Container:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out 0s;
+    background-color:#c9d2e9;
+    border-radius: 20px;
+    padding: 10%;
+}
+
+.Container h3:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out 0s;
+} 

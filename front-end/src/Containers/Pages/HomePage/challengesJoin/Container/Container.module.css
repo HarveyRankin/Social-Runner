@@ -1,0 +1,59 @@
+.Con {
+    margin-top: 1%;
+    background-color: rgb(241, 247, 248);
+    height: 670px;
+    padding: 1%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.Cross:hover {
+    transform: scale(1.2);
+}
+
+.Filter {
+    transform: scale(1.2);
+    color: rgb(51, 9, 9);
+}
+
+.SubCon {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.FilterCon {
+    font-family: Crushed-regular;
+    border: 2px dashed #47474d;
+    height: 50%;
+    font-size: 30px;
+    margin: 1px;
+    margin-top: 2%;
+    background-color: #000000;
+    opacity: 0.8;
+
+}
+.NoData{
+    margin-top: 30%;
+
+}
+.NoData p{
+    font-size: 50px;
+    font-family: Crushed-regular;
+    font-weight: bold;
+    
+}
+.NoChallenges{
+    display: flex;
+    justify-content: center;
+   font-size: 50px;
+   font-weight: bold;
+   font-family: Crushed-regular;
+   margin-top: 25%;
+}
+
+.NoChallenges p {
+    
+ color: rgb(114, 134, 248);
+}

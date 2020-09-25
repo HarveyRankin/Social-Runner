@@ -1,0 +1,29 @@
+.NavItem{
+width: calc(60px *0.8);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 10px;
+padding: 1px;
+position: relative;
+}
+.Icon{
+--button-size: calc(60px * 0.5);
+width: var(--button-size);
+height: var(--button-size);
+background-color: #484a4d;
+border-radius: 50%;
+padding: 5px;
+margin: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: filter 300ms;
+}
+.Icon:hover{
+opacity: 0.7;
+}
+.Icon svg {
+    width: 100x;
+    height: 50px;
+}

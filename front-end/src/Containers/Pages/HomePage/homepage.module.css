@@ -1,0 +1,53 @@
+.Page{
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+.Intro{ 
+margin-top: 2%;
+background-color:#303040;
+
+}
+
+
+.ConCreateClub{
+    width: 100%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+    background-color:rgb(241, 247, 248);
+    height: auto;
+    border-top-right-radius:30px;
+    border-top-left-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+   
+    
+}
+.Plus:hover{
+    transform: scale(1.2);
+}
+.CreateClubTop{
+    height: auto;
+    width: 100%;
+    background-color: #242426;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-bottom: auto;
+    box-shadow: 1px 24px 36px -11px rgba(0,0,0,0.54);
+    border-bottom: 1px solid #47474d;
+    
+}
+.CreateClubTop p{
+        font-family: Crushed-regular;
+        font-size: 50px;
+}
+.Title{
+    font-size: 30px;
+    font-family: Crushed-regular;
+    color:black;
+    padding: 2%;
+}

@@ -1,0 +1,58 @@
+.Table{
+width:100%;
+text-align: center;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+
+.Table td{
+    max-width: 100px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.Card{
+    font-family: Crushed-regular;
+    background-color: rgba(116, 1, 1, 0.842);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: -1px -15px 22px -7px rgba(0,0,0,0.51);
+    
+    
+}
+.Text {
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.TitleContainer{
+    overflow: hidden;
+}
+.DescriptionCon{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1%;
+   
+}
+.DescriptionCon p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.DescriptionCon p:hover{
+    transform: rotate(5deg);
+    cursor: pointer;
+}
+.ModalDescription{
+  font-size: 20px;
+  font-family: Crushed-regular;
+  background-color: white;
+  max-height: 350px;
+  overflow: auto;  
+  padding: 2%;
+}

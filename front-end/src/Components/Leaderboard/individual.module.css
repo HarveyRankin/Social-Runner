@@ -1,0 +1,22 @@
+.Individaul{
+    display: flex;
+    padding:2px;
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+    font-family: Crushed-regular;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: red;
+}
+.Individaul:hover{
+    background-color:rgb(88, 85, 85);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+    
+}

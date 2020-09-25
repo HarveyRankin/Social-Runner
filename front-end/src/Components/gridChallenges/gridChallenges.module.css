@@ -1,0 +1,15 @@
+.BasicGrid{
+   height: 500px;
+   padding: 5%;
+   overflow-y: scroll;
+
+}
+
+
+.Button{
+    padding: 20px;
+}
+.Container{
+    display: flex;
+    justify-content: space-evenly;
+}

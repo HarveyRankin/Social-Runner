@@ -1,0 +1,151 @@
+.ChallCon{
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+background-color: white;
+border-radius: 2px;
+}
+.TopCon{
+    font-family: Crushed-regular;
+    font-size: 20px;
+}
+.ChallCon:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.PersonalImage{
+    width:100%;
+    height: auto;
+    margin-top: 2%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+    
+}
+.PersonalImage:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.Reaction{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: '#242426';
+}
+.React{
+    
+    width: 100%;
+}
+
+.Slider{
+    width: 100%;
+  
+    
+}
+.TopCon{
+    position: relative;
+    display: flex;
+    padding:1%
+}
+.Thirdrow{
+    padding:'1%';
+    display: flex;
+}
+.Description{
+    width:100%;
+    font-size:20px;
+    font-family: Crushed-regular;
+    padding: 3%;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+  
+
+}
+.Delete{
+    position: absolute;
+    font-size: 40px;
+    top: 10%;
+    right: 2%;
+    color: red;
+    text-shadow: -1px -1px 14px rgba(150, 170, 150, 1);
+}
+.Delete:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.DescriptionBody{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 100%;
+    max-height: 150px;
+    overflow: hidden;
+    
+    
+
+}
+.DescriptionBody p {
+    text-align: left;
+    text-overflow: ellipsis;
+    
+    
+    
+}
+.AllComments{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.Score{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.Image{
+   
+    
+
+  position: fixed;
+  z-index: 999;
+
+  left: 0;
+  top: 0;
+  width: 100%;
+padding: 50px;
+  height: 100%;
+  
+  overflow: auto;
+
+  background-color: rgb(0, 0, 0);
+
+  background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.Content{
+    position: relative;
+    z-index:9999;
+    margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 800px;
+}
+.AllComments:hover{
+    transform: rotate(3deg);
+    cursor: pointer;
+}
+.FourthRow{
+    font-family: Crushed-regular;
+    display: flex;
+    padding: 2%;
+}
+.Description:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}

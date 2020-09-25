@@ -1,0 +1,22 @@
+.Card{
+    display: grid;
+    gap: 1rem;
+    width: 60%;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);   
+    transition: 0.3s;
+    margin: auto;
+    margin-top: 150px;
+    grid-template-columns: repeat(2,1fr);
+    transform: translateY(5);
+    grid-template-columns: repeat(2,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    transition: all 0.3s ease-out
+}
+
+.Card:hover {
+    transform: scaleX(2);
+    transform: scaleY(2);
+    box-shadow: 
+  0 8px 16px 0 rgba(0,0,0,0.2);
+  }

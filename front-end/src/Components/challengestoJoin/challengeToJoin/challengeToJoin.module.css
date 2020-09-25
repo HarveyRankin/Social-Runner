@@ -1,0 +1,40 @@
+.Challenge{
+    
+    border-width: thin;
+    cursor: pointer;
+    background-color: #f8f8ff;
+    padding: 10%;
+    transition: all .2s ease-in-out; 
+    border-radius: 20px;
+    border: 1px solid #242426;
+    margin-bottom: 10%;
+
+}   
+.Challenge:hover{
+    background-color:#242426 ;
+    transform: scale(1.1);
+}
+.Challenge:hover p{
+    color: cornsilk;
+}
+.Challenge p {
+    color:black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.Date{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Requirments{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Requirments p{
+    text-align: center;
+}
+.Gps{
+    display: flex;
+    justify-content: space-evenly;
+}

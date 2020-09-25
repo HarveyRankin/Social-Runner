@@ -1,0 +1,13 @@
+.Create{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+}
+.Create button{
+    color:white;
+}
+.Create :hover{
+    
+    opacity: 0.7;
+}
